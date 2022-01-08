@@ -1,0 +1,127 @@
+.date-picker-root {
+  padding: 21px 16px;
+  background-color: #fefefe;
+  box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.03);
+  border-radius: 20px;
+  position: relative;
+
+  .react-calendar {
+    border: none;
+    width: 100%;
+  }
+
+  .react-calendar__navigation {
+    display: none !important;
+  }
+
+  .react-calendar__month-view__weekdays__weekday {
+    color: #9F9FC9;
+
+    abbr[title] {
+      text-decoration: none;
+    }
+  }
+
+  .react-calendar__month-view__days__day {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+  }
+
+  .react-calendar__tile {
+    padding: 0;
+    color: #3C3352;
+    border: 2px solid transparent;
+
+    >abbr {
+      justify-content: center;
+      display: flex;
+      align-items: center;
+      text-decoration: none;
+      width: 30px;
+      padding: 7px 0;
+    }
+
+  }
+
+  .react-calendar__tile--active {
+    color: #596993;
+    border-radius: 9px;
+    border: 2px dashed #BED0FF;
+    background: none;
+    box-sizing: border-box;
+
+    >abbr {
+      justify-content: center;
+      display: flex;
+      align-items: center;
+      text-decoration: none;
+      width: 100%;
+      background: none;
+
+      &.active {
+        background-color: #BED0FF;
+      }
+    }
+  }
+
+  .react-calendar__tile:enabled:hover,
+  .react-calendar__tile:enabled:focus {
+    background-color: #BED0FF;
+    border-radius: 9px;
+    color: #596993;
+  }
+
+  .react-calendar__tile:disabled {
+    color: #A5A4A8;
+    background: none;
+  }
+
+  &__date {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+
+    p {
+      color: #000000;
+      line-height: 27px;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 16px;
+      margin: 0;
+    }
+  }
+
+  &__left-arrow,
+  &__right-arrow {
+    width: 27px;
+    height: 27px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    background-color: #F3F7FF;
+    border-radius: 5px;
+
+    svg {
+      width: 8px;
+      height: 9px;
+      fill: #596993;
+    }
+  }
+
+  &__left-arrow {
+    transform: rotate(180deg);
+
+    &.no_cursor {
+      cursor: auto;
+      background: #F3F7FF;
+
+      svg {
+        fill: #A5A4A8;
+      }
+    }
+  }
+}

@@ -1,0 +1,38 @@
+.select-date-root {
+  padding: 46px 20px;
+  position: relative;
+  background-color: #f5f5f8;
+
+  &__date {
+    margin-bottom: 30px;
+  }
+
+  &__times-btns {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+
+    button {
+      max-width: 30%;
+      width: 100%;
+      margin-bottom: 5%;
+
+      &:nth-child(3n + 2) {
+        margin-right: 5%;
+        margin-left: 5%;
+      }
+
+      span {
+        font-family: Montserrat;
+        font-weight: 600;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 570px) {
+  .select-date-root {
+    padding: 46px 33px;
+  }
+}

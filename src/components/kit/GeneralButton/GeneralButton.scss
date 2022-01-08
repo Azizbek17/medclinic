@@ -1,0 +1,28 @@
+@import '../../../containers/Pages/OnlineRecord/variables';
+
+.general-btn {
+  border-radius: 6px;
+  width: 100%;
+  min-width: 40%;
+  height: 48px;
+  background: none;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  box-shadow: 0 8px 10px rgba(172, 195, 255, 0.1);
+  background-color: $main-color;
+  color: #fff;
+
+  &__text {
+    text-transform: capitalize;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+  }
+
+  &__disabled {
+    background-color: $secondary-color;
+  }
+}

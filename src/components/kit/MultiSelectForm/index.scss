@@ -1,0 +1,41 @@
+.multi-select-root {
+  border-radius: 6px;
+  border: 1px solid #ECEBED;
+  margin-top: 20px;
+  .select__control {
+    padding: 10.5px 6px;
+    cursor: pointer;
+  }
+  .css-yk16xz-control {
+    border-color: hsl(0, 0%, 100%);
+  }
+  .css-yk16xz-control:hover {
+    border-color: transparent;
+  }
+  .css-1okebmr-indicatorSeparator {
+    background-color: transparent;
+  }
+  .select__placeholder {
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 20px;
+    color: #1A051D;
+  }
+  .css-1rhbuit-multiValue {
+    background: #D5E9FA;
+    border-radius: 4px;
+    font-size: 11px;
+    line-height: 12px;
+    color: #0084F4;
+    padding: 5px 8px;
+  }
+  .select__multi-value__label {
+    font-size: 11px;
+    line-height: 12px;
+    color: #0084F4!important;
+  }
+  .css-xb97g8:hover {
+    background-color: transparent;
+    color: #0084F4!important;
+  }
+}

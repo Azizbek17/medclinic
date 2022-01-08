@@ -1,0 +1,12 @@
+{
+    "baseUrl": "http://178.216.212.112:62532/",
+    "currency_symbol": "сом",
+    "logoUrl": "https://artclinic.kg/img/logo-white.png",
+    "logoBG" : "#5a6d46",
+    "centerName": "Art Clinic",
+    "phoneMask": "+\\9\\9\\6 (999) 999 999",
+    "getPhotos": true,
+    "getNearestFreeTime": true,
+    "PROXY_URL": "https://tranquil-ridge-95766.herokuapp.com/",
+    "PROXY": false
+}

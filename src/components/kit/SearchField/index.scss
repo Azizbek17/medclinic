@@ -1,0 +1,29 @@
+.search-field {
+  box-sizing: border-box;
+  border-radius: 4px;
+  padding: 6px 0 6px 11px;
+  width: 385px;
+  display: flex;
+  align-items: center;
+
+  &__input {
+    border: none;
+    width: 100%;
+  }
+
+  &__icon {
+    display: flex;
+    margin-right: 12px;
+  }
+
+  &__input:focus, textarea:focus, select:focus {
+    outline: none;
+  }
+
+  &__input::placeholder {
+    color: #C2BCCE;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+  }
+}

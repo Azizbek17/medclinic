@@ -1,0 +1,23 @@
+.time-button-root {
+  width: 116px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  cursor: pointer;
+  border-radius: 12px;
+
+  &__time {
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 19px;
+    color: #304858;
+  }
+}
+
+.time-button-root:focus {
+  outline: 0;
+}

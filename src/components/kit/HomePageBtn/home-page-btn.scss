@@ -1,0 +1,22 @@
+@import '../../../containers/Pages/OnlineRecord/variables';
+
+.home-page-btn {
+  border-radius: 6px;
+  width: 100%;
+  min-width: 40%;
+  height: 48px;
+  background: none;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  box-shadow: 0 8px 10px rgba(172, 195, 255, 0.1);
+  background-color: $secondary-color;
+  color: #fff;
+  margin-right: 10px;
+  text-transform: capitalize;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+}

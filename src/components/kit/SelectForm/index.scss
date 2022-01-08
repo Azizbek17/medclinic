@@ -1,0 +1,18 @@
+.input-form-select {
+  .MuiSelect-select.MuiSelect-select {
+    padding-left: 14px;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 20px;
+  }
+  .MuiInput-underline:before {
+    border: none;
+  }
+  .MuiSelect-select:focus {
+    background: none;
+  }
+  .MuiInput-underline:hover:not(.Mui-disabled):before,
+  .MuiInput-underline:after{
+    border: none;
+  }
+}
